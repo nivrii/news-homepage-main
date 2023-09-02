@@ -289,21 +289,23 @@ header {
         display: none;
       }
       & .wrap_li2 {
-        display: flex;
-        & li {
-          margin-left: 30px;
-          font-weight: var(--w7);
-          font-family: "Inter", sans-serif;
-          list-style-type: none;
-          display: flex;
-          justify-content: flex-start;
-          & a {
-            color: var(--Grayish_blue);
+        
+        &ul {
+          & li {
+            margin-left: 30px;
             font-weight: var(--w7);
-            text-decoration: none;
-            &:hover {
-              color: var(--Soft_orange);
-              text-decoration: underline;
+            font-family: "Inter", sans-serif;
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-start;
+            & a {
+              color: var(--Grayish_blue);
+              font-weight: var(--w7);
+              text-decoration: none;
+              &:hover {
+                color: var(--Soft_orange);
+                text-decoration: underline;
+              }
             }
           }
         }
